@@ -36,7 +36,7 @@ class DistanceField(object):
 
         # Manhattan distance field to center of map: floating iceberg.
         if abs(nx) + abs(nz) + abs(ny*8) < 64:
-            return c.MAT_SNOW
+            return c.MAT_DIRT
 
         # Anything that's not solid but under the sea level?
         if y < 0:
