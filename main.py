@@ -1,4 +1,4 @@
-#
+﻿#
 # This file is part of The Principles of Modern Game AI.
 # Copyright (c) 2015, AiGameDev.com KG.
 #
@@ -13,7 +13,7 @@ sys.path.append('pymcworldgen')
 import layer                                    # Modules from pymcworldgen.
 import saveutils
 import constants as c
-
+from subprocess import Popen
 
 
 class DistanceField(object):
@@ -89,3 +89,4 @@ def generate():
 if __name__ == "__main__":
     os.makedirs("output", exist_ok=True)
     generate()
+    Popen("mapcrafter.bat")
