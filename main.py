@@ -42,6 +42,9 @@ class DistanceField(object):
         if y < -5:
             return c.MAT_WATER
 
+        if y < 0:
+            return c.MAT_SNOW
+
         return c.MAT_AIR
 
     def getChunk(self, cx, cz):
