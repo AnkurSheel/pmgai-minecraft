@@ -30,9 +30,9 @@ class DistanceField(object):
         """ 
 
         # Add simple noise to the coordinates to make it less rigid!
-        nx = x + 2*math.sin(z/4.7)
-        nz = z + 2*math.cos(x/5.9)
-        ny = y + math.sin(0.75 + x/7.8 + z/9.1)
+        nx = x + 2*math.sin(z/2.3 + math.cos(x/2.7))
+        nz = z + 2*math.cos(x/2.7 + math.sin(z/2.3))
+        ny = y + math.sin(0.2 + x/4.9 + z/5.5)
 
         nx = math.fmod(nx, 32.0)
         nz = math.fmod(nz, 32.0)
