@@ -1,0 +1,3 @@
+[submodule "pymcworldgen"]
+	path = pymcworldgen
+	url = git@github.com:AnkurSheel/pymcworldgen.git
