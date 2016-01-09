@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{337bbf15-1f20-4c21-9254-0f002c985f58}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>pymcworldgen\mcworldgen.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
